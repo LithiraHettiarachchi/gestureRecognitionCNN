@@ -26,7 +26,9 @@ Seaborn
 
 Clone this repository:
 
+```ruby
 git clone https://github.com/yourusername/gesture-recognition
+```
 
 Open Google Colab and upload the notebook.
 
