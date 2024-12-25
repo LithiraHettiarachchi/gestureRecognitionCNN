@@ -34,12 +34,16 @@ Open Google Colab and upload the notebook.
 
 Mount Google Drive in Colab:
 
+```ruby
 from google.colab import drive
 drive.mount('/content/drive')
+```
 
 Load the trained model:
 
+```ruby
 import pickle
 with open('/content/drive/MyDrive/path_to_model/cnn_model.pkl', 'rb') as f:
     model = pickle.load(f)
+```
 
