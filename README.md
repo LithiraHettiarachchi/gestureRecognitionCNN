@@ -4,8 +4,6 @@ This project is a gesture recognition model that classifies English alphabets us
 
 Google Colab account
 
-Kaggle account (for dataset access)
-
 Google Drive access
 
 Python 3.x
@@ -19,3 +17,27 @@ OpenCV
 NumPy
 
 Matplotlib
+
+Pandas
+
+Seaborn
+
+# How to Run
+
+Clone this repository:
+
+git clone https://github.com/yourusername/gesture-recognition
+
+Open Google Colab and upload the notebook.
+
+Mount Google Drive in Colab:
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+Load the trained model:
+
+import pickle
+with open('/content/drive/MyDrive/path_to_model/cnn_model.pkl', 'rb') as f:
+    model = pickle.load(f)
+
